@@ -1,32 +1,32 @@
-
-<ul>
-  <!-- 遍历渲染文章 -->
-  <% page.posts.forEach(function(item) { %>
-  <li>
-    <h3><%- item.date.format('MMM DD, YYYY') %></h3>
-    <h2>
-      <a href="<%- url_for(item.path) %>">
-        <% if(item.title !== "") { %>
-          <% if (item.top) { %>
-            <span><span title="<%= __('pinned') %>" class="icon iconfont icon-pin-top post-top"></span><%- item.title %></span>
+<div>
+  <ul>
+    <!-- 遍历渲染文章 -->
+    <% page.posts.forEach(function(item) { %>
+    <li>
+      <h3><%- item.date.format('MMM DD, YYYY') %></h3>
+      <h2>
+        <a href="<%- url_for(item.path) %>">
+          <% if(item.title !== "") { %>
+            <% if (item.top) { %>
+              <span><span title="<%= __('pinned') %>" class="icon iconfont icon-pin-top post-top"></span><%- item.title %></span>
+            <% } else { %>
+              <span><%- item.title %></span>
+            <% } %>
           <% } else { %>
-            <span><%- item.title %></span>
+            <span>untitled</span>
           <% } %>
-        <% } else { %>
-          <span>untitled</span>
-        <% } %>
-      </a>
-    </h2>
-  </li>
-  <% }) %>
-</ul>
-
-
-<nav class="post-navigation">
-  <% if(page.prev !== 0){ %>
-    <a id="prev" class="index-nav" href="<%- url_for(page.prev_link)%>">&lt;&nbsp;NEWER</a>
-  <% } %>
-  <% if(page.next !== 0){ %>
-    <a id="next" class="index-nav" href="<%- url_for(page.next_link)%>">OLDER&nbsp;&gt;</a>
-  <% } %>
-</nav>
+        </a>
+      </h2>
+    </li>
+    <% }) %>
+  </ul>
+  
+  <nav class="post-navigation">
+    <% if(page.prev !== 0){ %>
+      <a id="prev" class="index-nav" href="<%- url_for(page.prev_link)%>">&lt;&nbsp;NEWER</a>
+    <% } %>
+    <% if(page.next !== 0){ %>
+      <a id="next" class="index-nav" href="<%- url_for(page.next_link)%>">OLDER&nbsp;&gt;</a>
+    <% } %>
+  </nav>
+</div>
