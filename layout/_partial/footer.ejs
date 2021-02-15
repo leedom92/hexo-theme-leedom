@@ -1,0 +1,11 @@
+<div class="footer">
+  <% for(let item of theme.footer){ %>
+    <div class="footer-more">
+      <% if (item.path) { %>
+        <a href="<%- item.path %>"><%- item.name %></a>
+      <% } else { %>
+        <%- item.name %>
+      <% } %>  
+    </div>
+  <% } %>
+</div>

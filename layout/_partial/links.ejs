@@ -1,0 +1,7 @@
+<p class="links">
+  <% for(let item of theme.link){ %>
+    <a title="<%- item.name %>" href="<%- item.path %>">
+      <i class="iconfont icon-<%- item.icon %>"></i>
+    </a>
+  <% } %>
+</p>

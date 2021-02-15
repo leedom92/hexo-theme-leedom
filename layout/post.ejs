@@ -1,0 +1,34 @@
+<!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
+
+<!-- LaTex Display -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
+
+<div class="post">
+  <h3 class="date">
+    <%- page.date.format('MMM DD, YYYY') %>
+  </h3>
+  <h1>
+    <%- page.title %>
+  </h1>
+  <div class="content markdown-body">
+    <%- page.more %>
+  </div>
+  <% if(theme.prevnext.enable) { %>
+    <% if(page.next) { %>
+      <a id="older" class="blog-nav" href="<%- url_for(page.next.path) %>">OLDER&nbsp;&gt;</a>
+      <% } %>
+        <% if(page.prev) { %>
+          <a id="newer" class="blog-nav" href="<%- url_for(page.prev.path) %>">&lt;&nbsp;NEWER</a>
+          <% } %>
+            <% } %>
+</div>

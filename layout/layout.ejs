@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="<%= config.language %>">
+
+  <%- partial('_partial/header') %>
+
+  <body>
+    <div id="app">
+      <%- partial('_partial/name') %>
+      <%- partial('_partial/links') %>
+
+      <div class="main">
+        <%- body %>
+        <%- partial('_partial/footer') %>
+      </div>
+
+      <%- partial('_partial/backtotop') %>
+
+      <%- partial('_partial/search') %>
+
+    </div>
+  </body>
+</html>

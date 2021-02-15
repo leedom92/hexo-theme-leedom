@@ -1,0 +1,28 @@
+categories: 分类
+search: 搜索...
+searchFirst: 首次搜索，正在载入索引文件，请稍后……
+searchNoResult: 没有找到内容，请尝试更换检索词。
+searchFilesNotfound: 未找到search.xml文件，具体请参考：
+searchServiceErrors: 请求失败，尝试重新刷新页面或稍后重试。
+tags: 标签
+tagcloud: 标签云
+tweets: 推文
+prev: 上一页
+next: 下一页
+comment: 留言
+archive_a: 归档
+archive_b: 归档：%s
+page: 第 %d 页
+recent_posts: 最新文章
+newer: Newer
+older: Older
+share: Share
+powered_by: Powered by
+rss_feed: RSS Feed
+category: Category
+tag: 标签
+catalog: 目录
+pinned: 置顶
+updateTime: 更新时间
+about: 关于
+friend: 朋友

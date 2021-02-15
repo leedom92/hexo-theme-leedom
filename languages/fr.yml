@@ -1,0 +1,28 @@
+categories: Catégories
+search: Rechercher
+searchFirst: Première recherche, en cours de chargement du fichier index, plus tard …
+searchNoResult: Aucun contenu n’a été trouvé, essayez de remplacer le terme de recherche.
+searchFilesNotfound: The search.xml file was not found, please refer to：
+searchServiceErrors: The request failed, Try to refresh the page or try again later.
+tags: Mot-clés
+tagcloud: Nuage de mot-clés
+tweets: Tweets
+prev: Précédent
+next: Suivant
+comment: Commentaires
+archive_a: Archives
+archive_b: "Archives: %s"
+page: Page %d
+recent_posts: Articles récents
+newer: Récent
+older: Ancien
+share: Partager
+powered_by: Propulsé par
+rss_feed: Flux RSS
+category: Catégorie
+tag: Mot-clé
+catalog: catalogue
+pinned: fixes
+updateTime: Heure de mise à jour
+about: About
+friend: Des amis

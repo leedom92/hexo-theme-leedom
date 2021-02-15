@@ -1,0 +1,76 @@
+# 相关配置说明
+  # favicon: 网站图标
+  # avatar: 主题用户头像与昵称
+  # rss: rss订阅
+  # prevnext: 文章末尾的上一页与下一页
+  # footer: 页脚信息
+  # search: 文章搜索
+
+# enable: 是否开启相应功能，可选true || false
+
+# 网站图标
+favicon:
+  enable: true
+  icon: /images/favicon.png
+  touch_icon: /images/favicon.png
+
+# 用户头像与昵称
+avatar:
+  author_photo: /images/avatar.png
+  author_nickname: LEEDOM
+  path: /
+
+# 文章末尾的上一页与下一页
+prevnext:
+  enable: true
+
+# 链接信息
+link: 
+  # name: 名称
+  # icon: 图标，目前仅支持IconFont部分图标
+  # path: 地址
+  -
+    name: github
+    icon: github
+    path: https://github.com/leedom92/hexo-theme-leedom
+  -
+    name: email
+    icon: envelope
+    path: 
+  -
+    name: facebook
+    icon: facebooksquare
+    path:
+  -
+    name: twitter
+    icon: twitter
+    path:
+  -
+    name: wechat
+    icon: wechat
+    path:
+  -
+    name: weibo
+    icon: weibo
+    path:
+  -
+    # rss需安装 hexo-generator-feed 插件
+    # 具体参照https://github.com/hexojs/hexo-generator-feed
+    name: rss
+    icon: rss
+    path: /atom.xml
+
+
+# 页脚信息
+footer:
+  -
+    name: Copyright © Leedom 2021
+    path: https://github.com/leedom92/hexo-theme-leedom
+  -
+    name: Theme by Leedom | Powered by Hexo
+    path: https://github.com/leedom92/hexo-theme-leedom
+
+# 文章搜索
+search:
+  enable: true
+  placeholder: 

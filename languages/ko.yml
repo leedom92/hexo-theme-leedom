@@ -1,0 +1,28 @@
+categories: 카테고리
+search: 검색
+searchFirst: 첫 번째 검색, 인덱스 파일을 불러오고 있습니다. 잠시 후 …
+searchNoResult: 검색어를 찾을 수 없습니다. 검색어를 바꿔 보세요
+searchFilesNotfound: The search.xml file was not found, please refer to：
+searchServiceErrors: The request failed, Try to refresh the page or try again later.
+tags: 태그
+tagcloud: 태그 클라우드
+tweets: 트윗
+prev: 이전
+next: 다음
+comment: 댓글
+archive_a: 아카이브
+archive_b: "아카이브: %s"
+page: 페이지 %d
+recent_posts: 최근 포스트
+newer: 최신
+older: 이전
+share: 공유
+powered_by: Powered by
+rss_feed: RSS Feed
+category: 카테고리
+tag: 태그
+catalog: 목록
+pinned: 도와주
+updateTime: 업데이트 시간
+about: 관
+friend: 친구

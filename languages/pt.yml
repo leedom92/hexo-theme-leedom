@@ -1,0 +1,28 @@
+categories: Categorias
+search: Buscar
+searchFirst: Primeira pesquisa, o arquivo de índice está sendo carregado, por favor, mais tarde …
+searchNoResult: O conteúdo não foi encontrado, tente substituir a palavra de recuperação.
+searchFilesNotfound: The search.xml file was not found, please refer to：
+searchServiceErrors: The request failed, Try to refresh the page or try again later.
+tags: Tags
+tagcloud: Nuvem de Tags
+tweets: Tweets
+prev: Anterior
+next: Próximo
+comment: Comentários
+archive_a: Arquivos
+archive_b: "Arquivos: %s"
+page: Página %d
+recent_posts: Postagens Recentes
+newer: Mais Recente
+older: Mais Antigo
+share: Compartilhar
+powered_by: Desenvolvido por
+rss_feed: Feed RSS
+category: Categoria
+tag: Tag
+catalog: O catálogo
+pinned: fixo
+updateTime: Hora de actualização
+about: sobre
+friend: amigos
