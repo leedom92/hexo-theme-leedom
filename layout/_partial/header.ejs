@@ -33,9 +33,9 @@
       <%= __(title) %> 
       <% if (page.tag) { %> : <%= page.tag %><% } %>
       <% if (page.category) { %> : <%= page.category %><% } %>
-      |
+    <% } else { %>
+      <%= config.title %>
     <% } %>
-     <%= config.title %>
   </title>
 
   <% if (theme.favicon.enable){ %>
