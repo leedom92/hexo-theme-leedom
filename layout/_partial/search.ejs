@@ -34,10 +34,10 @@
     var inputArea = document.querySelector("#search-input")
     var searchOverlayArea = document.querySelector(".search-overlay")
 
-    inputArea.onclick = function() {
-      getSearchFile()
-      this.onclick = null
-    }
+    // inputArea.onclick = function() {
+    //   getSearchFile()
+    //   this.onclick = null
+    // }
 
     inputArea.onkeydown = function() {
       if(event.keyCode == 13)
