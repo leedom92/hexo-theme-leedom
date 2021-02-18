@@ -20,4 +20,4 @@ theme: leedom
 ```
 ## License
 
-MIT
+MIT License Copyright (c) 2021 Leedom
