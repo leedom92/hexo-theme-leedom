@@ -59,7 +59,7 @@ a:hover {
 }
 
 .container {
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .index .post-list, .friend-index .friend-list, .archives .post-list, .tag-index .tag-list, .about-index .markdown-body {
