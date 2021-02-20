@@ -29,6 +29,7 @@ link:
   # name: 名称
   # icon: 图标，目前仅支持IconFont部分图标
   # path: 地址
+  # target: 跳转方式
   -
     # 档案
     name: archives
@@ -38,6 +39,7 @@ link:
     name: github
     icon: github
     path: https://github.com/leedom92/hexo-theme-leedom
+    target: _blank
   -
     name: email
     icon: envelope
@@ -64,6 +66,7 @@ link:
     name: rss
     icon: rss
     path: /atom.xml
+    target: _blank
 
 
 # 页脚信息
