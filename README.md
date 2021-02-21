@@ -1,9 +1,9 @@
 # hexo-theme-leedom
-A theme of hexo that is derived from [Hexo-Theme-Oranges](https://github.com/zchengsite/hexo-theme-oranges?_blank), and the style is based on [Evan You's blog](https://blog.evanyou.me?_blank).
+A theme of hexo that is derived from [Hexo-Theme-Oranges](https://github.com/zchengsite/hexo-theme-oranges){target="_blank"}, and the style is based on [Evan You's blog](https://blog.evanyou.me){target="_blank"}.
  
 > MY BLOG
 > 
->[THE PORTAL](https://blog.leedom.me?_blank)
+>[THE PORTAL](https://blog.leedom.me){target="_blank"}
 
 ## Installation
 
