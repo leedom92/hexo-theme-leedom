@@ -1,13 +1,18 @@
 # hexo-theme-leedom
-A theme of hexo that is derived from [Hexo-Theme-Oranges](https://github.com/zchengsite/hexo-theme-oranges), and the style is based on [Evan You's blog](https://blog.evanyou.me).
+
+English | [简体中文](./README.zh-CN.md)
+
+## Introduction
+
+A pure theme of Hexo like Evan You's blog. The theme is derived from [Hexo-Theme-Oranges](https://github.com/zchengsite/hexo-theme-oranges), and the style is based on [Evan You's blog](https://blog.evanyou.me).
  
 > MY BLOG
 > 
->[THE PORTAL](https://blog.leedom.me)
+>[THE PORTAL](https://blog.leedom.me/)
 
 ## Installation
 
-```bash
+```sh
 $ git clone https://github.com/leedom92/hexo-theme-leedom.git themes/leedom
 ```
 
