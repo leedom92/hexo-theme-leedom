@@ -23,6 +23,33 @@ $ git clone https://github.com/leedom92/hexo-theme-leedom.git themes/leedom
 ```yml
 theme: leedom
 ```
+
+## 配置
+如果您在搜索时出现以下错误:
+```html
+The search.xml file was not found, please refer to：configuration
+```
+
+>请安装 [hexo-generator-search](https://github.com/wzpan/hexo-generator-search) 插件
+
+```sh
+npm install hexo-generator-search -S
+```
+在根目录下的 `_config.yml` 添加或编辑以下配置:
+```yml
+search:
+  path: search.xml
+  field: post
+  content: true
+```
+
+在 `themes/leedom/_config.yml` 编辑配置:
+```yml
+search:
+  enable: true
+  placeholder: 搜索
+```
+
 ## License
 
-[MIT License Copyright (c) 2021 Leedom](https://github.com/leedom92/hexo-theme-leedom/blob/master/LICENSE)
+[MIT](https://github.com/leedom92/hexo-theme-leedom/blob/master/LICENSE)

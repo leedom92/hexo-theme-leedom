@@ -23,6 +23,34 @@ Edit the `theme` field in the `_config.yml` file under the project root:
 ```yml
 theme: leedom
 ```
+
+## Configuration
+if there's an error when you are searching:
+```html
+The search.xml file was not found, please refer to：configuration
+```
+
+>please install [hexo-generator-search](https://github.com/wzpan/hexo-generator-search) plugin
+
+```sh
+npm install hexo-generator-search -S
+```
+
+add or edit configuration in your root `_config.yml`:
+```yml
+search:
+  path: search.xml
+  field: post
+  content: true
+```
+
+edit configuration in the `themes/leedom/_config.yml`:
+```yml
+search:
+  enable: true
+  placeholder: 搜索
+```
+
 ## License
 
-[MIT License Copyright (c) 2021 Leedom](https://github.com/leedom92/hexo-theme-leedom/blob/master/LICENSE)
+[MIT](https://github.com/leedom92/hexo-theme-leedom/blob/master/LICENSE)
