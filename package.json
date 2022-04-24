@@ -1,0 +1,26 @@
+{
+  "name": "hexo-theme-leedom",
+  "version": "1.0.0",
+  "description": "A pure theme of Hexo like Evan You's blog. 一个仿照尤雨溪博客的简洁的Hexo主题。",
+  "main": "package.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leedom92/hexo-theme-leedom.git"
+  },
+  "keywords": [
+    "hexo",
+    "hexo-theme",
+    "leedom",
+    "evan you",
+    "blog"
+  ],
+  "author": "Leedom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leedom92/hexo-theme-leedom/issues"
+  },
+  "homepage": "https://blog.leedom.me"
+}
