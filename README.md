@@ -13,7 +13,9 @@ A pure theme of Hexo like Evan You's blog. The theme is derived from [Hexo-Theme
 ## Installation
 
 ```sh
-$ git clone https://github.com/leedom92/hexo-theme-leedom.git themes/leedom
+# hexo-site is the root directory of your hexo project
+cd hexo-site
+git clone https://github.com/leedom92/hexo-theme-leedom.git themes/leedom
 ```
 
 ## Usage

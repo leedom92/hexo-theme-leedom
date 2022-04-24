@@ -13,7 +13,9 @@
 ## 安装
 
 ```bash
-$ git clone https://github.com/leedom92/hexo-theme-leedom.git themes/leedom
+# hexo-site是你的 hexo 项目的根目录
+cd hexo-site
+git clone https://github.com/leedom92/hexo-theme-leedom.git themes/leedom
 ```
 
 ## 用法
