@@ -11,9 +11,16 @@
 >[传送门](https://blog.leedom.me/)
 
 ## 安装
+`hexo-site` 是你的 hexo 项目的根目录
 
-```bash
-# hexo-site是你的 hexo 项目的根目录
+通过npm安装：
+```sh
+cd hexo-site
+npm i hexo-theme-leedom
+```
+
+或者克隆整个存储库：
+```sh
 cd hexo-site
 git clone https://github.com/leedom92/hexo-theme-leedom.git themes/leedom
 ```

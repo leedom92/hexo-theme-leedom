@@ -11,9 +11,16 @@ A pure theme of Hexo like Evan You's blog. The theme is derived from [Hexo-Theme
 >[THE PORTAL](https://blog.leedom.me/)
 
 ## Installation
+`hexo-site` is the root directory of your hexo project
 
+Install through npm:
 ```sh
-# hexo-site is the root directory of your hexo project
+cd hexo-site
+npm i hexo-theme-leedom
+```
+
+Or you can clone the entire repository:
+```sh
 cd hexo-site
 git clone https://github.com/leedom92/hexo-theme-leedom.git themes/leedom
 ```
