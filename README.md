@@ -13,16 +13,16 @@ A pure theme of Hexo like Evan You's blog. The theme is derived from [Hexo-Theme
 ## Installation
 `hexo-site` is the root directory of your hexo project
 
-Install through npm:
-```sh
-cd hexo-site
-npm i hexo-theme-leedom
-```
-
-Or you can clone the entire repository:
+clone the entire repository:
 ```sh
 cd hexo-site
 git clone https://github.com/leedom92/hexo-theme-leedom.git themes/leedom
+```
+
+Or you can Install through npm:
+```sh
+cd hexo-site
+npm i hexo-theme-leedom
 ```
 
 ## Usage
