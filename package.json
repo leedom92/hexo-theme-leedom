@@ -4,7 +4,7 @@
   "description": "A pure theme of Hexo like Evan You's blog. 一个仿照尤雨溪博客的简洁的Hexo主题。",
   "main": "package.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "bumpp && pnpm publish "
   },
   "repository": {
     "type": "git",
