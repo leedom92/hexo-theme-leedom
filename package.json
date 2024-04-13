@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/leedom92/hexo-theme-leedom/issues"
   },
-  "homepage": "https://blog.leedom.me"
+  "homepage": "https://blog.leedom.me",
+  "dependencies": {
+    "hexo-generator-search": "^2.4.3"
+  }
 }
