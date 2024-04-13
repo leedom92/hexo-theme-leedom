@@ -25,5 +25,8 @@
   "homepage": "https://blog.leedom.me",
   "dependencies": {
     "hexo-generator-search": "^2.4.3"
+  },
+  "devDependencies": {
+    "bumpp": "^9.4.0"
   }
 }
