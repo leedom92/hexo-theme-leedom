@@ -24,7 +24,9 @@
   },
   "homepage": "https://blog.leedom.me",
   "dependencies": {
-    "hexo-generator-search": "^2.4.3"
+    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-search": "^2.4.3",
+    "hexo-migrator-rss": "^1.1.0"
   },
   "devDependencies": {
     "bumpp": "^9.4.0"
