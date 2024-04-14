@@ -34,16 +34,6 @@ theme: leedom
 ```
 
 ## Configuration
-if there's an error when you are searching:
-```html
-The search.xml file was not found, please refer to：configuration
-```
-
->please install [hexo-generator-search](https://github.com/wzpan/hexo-generator-search) plugin
-
-```sh
-npm install hexo-generator-search -S
-```
 
 add or edit configuration in your root `_config.yml`:
 ```yml
