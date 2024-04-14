@@ -2,9 +2,8 @@
   "name": "hexo-theme-leedom",
   "version": "1.1.1",
   "description": "A pure theme of Hexo like Evan You's blog. 一个仿照尤雨溪博客的简洁的Hexo主题。",
-  "main": "package.json",
   "scripts": {
-    "release": "bumpp && pnpm publish "
+    "release": "bumpp && pnpm publish"
   },
   "repository": {
     "type": "git",
