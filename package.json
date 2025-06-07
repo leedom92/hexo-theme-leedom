@@ -28,6 +28,6 @@
     "hexo-migrator-rss": "^1.1.0"
   },
   "devDependencies": {
-    "bumpp": "^9.4.0"
+    "bumpp": "^10.1.1"
   }
 }
